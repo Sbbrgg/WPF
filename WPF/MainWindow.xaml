@@ -5,9 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-	<Grid>
-		<Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="300,191,0,0" VerticalAlignment="Top" Background="#FFDDDDDD" Width="100" Height="34" Click="Button_Click"/>
-
+        Title="Buttoooooooooon" Width="800" Height="450" FontSize="64">
+	<Grid Background="Aqua" >
+		<!--<Button x:Name="btnStart" 
+				Content="Start" 
+				HorizontalAlignment="Left" 
+				Margin="300,191,0,0" 
+				VerticalAlignment="Top" 
+				Background="#FFDDDDDD" 
+				Width="100" Height="34" 
+				Click="Button_Click"
+				/>-->
+		<Button Click="Button_Click" x:Name="btnStart" Width="200" Height="100" Content="Start"></Button>
 	</Grid>
 </Window>
