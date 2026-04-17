@@ -29,7 +29,7 @@ namespace WPF
 		{
 			//btnStart.Content = btnStart.Content.ToString() == "Stop" ? "Start" : "Stop";
 			(sender as Button).Content = ((Button)sender).Content.ToString() == "Stop" ? "Start" : "Stop";
-			//as приводит переменную к типу данных
+			//as приводит переменную к типу данных. Проверяет можно ли привести к типу данных, а затем, если можно, возвращает приведённый объект. Не изменяет объект.
 		}
     }
 }
